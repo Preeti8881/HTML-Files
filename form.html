@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- emojis code -->
+    &#128518
+    &#128525
+
+
+    <form actions="" method="post" target="_self" autocomplete="off">
+        <fieldset style="background-color: coral;">
+            <legend>Form</legend>
+        <table>
+            <tr>
+                <td>
+                    <label form="FN">FIrst Name</label>
+                </td>
+                <td>
+                    <input type="text" id="FN" name="FN" placeholder="First Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label form="LN">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="LN" name="LN" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label form="NO">Number</label>
+                </td>
+                <td>
+                    <input type="tel" id="NO" name="Number" placeholder="Number" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label form="Email">E-mail ID</label>
+                </td>
+                <td>
+                    <input type="email" id="Email" name="e-mail" placeholder="E-mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Address</label>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label form="dob">DOB</label>
+                </td>
+                <td>
+                    <input type="datetime-local" id="dob" name="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="pass" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gen">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="gen" name="gen" value="male">Male
+                    <input type="radio" id="gen" name="gen" value="feamle">Female
+                    <input type="radio" id="gen" name="gen" value="others">Others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="spo">Sports</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="spo" name="spo">Hockey
+                    <input type="checkbox" id="spo" name="spo">Cricket
+                    <input type="checkbox" id="spo" name="spo">Football
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Choose a file</label>
+                </td>
+                <td>
+                    <input type="file" id="file" name="file name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="place">Place</label>
+                </td>
+                <td><select name="" id="place">
+                    <option value=""></option>
+                    <option value="Australia">Australia</option>
+                    <option value="Englamd">England</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                    <option value="Uganda">Uganda</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Upload an image</label>
+                </td>
+                <td>
+                    <input type="image" src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" height="100px"width=100px>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="col">Choose an color</label>
+                </td>
+                <td>
+                    <input type="color" id="col" name="col">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hid">Hidden</label>
+                </td>
+                <td>
+                    <input type="hidden" name="hid" id="hid">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Select a range</label>
+                </td>
+                <td>
+                    <input type="range">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ser">Search</label>
+                </td>
+                <td>
+                    <input type="search" id="ser" name="ser">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="url">Enter the URL</label>
+                </td>
+                <td>
+                    <input type="url" name="url" id="url">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tech">Technologies</label>
+                </td>
+                <td>
+                    <input list="techs" id="tech" name="tech">
+        
+                 <datalist id="techs">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JS">JS</option>
+                    <option value="React Js">React JS</option>
+                    <option value="Node JS">Node JS</option>
+                 </datalist>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+
+            
+        </table>
+        </fieldset>
+        </form>
+        
+
+
+</body>
+</html>
